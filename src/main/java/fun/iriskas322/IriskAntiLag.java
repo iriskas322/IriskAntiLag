@@ -85,7 +85,7 @@ public final class IriskAntiLag extends JavaPlugin implements Listener {
             if (entity.getType() == EntityType.DROPPED_ITEM) {
                 return;
             }
-            event.setCancelled(true);
+            entity.remove();
             return;
         }
         huy.put(chunk, pizdets + 1);
