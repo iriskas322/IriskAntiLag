@@ -1,0 +1,7 @@
+name: IriskAntiLag
+version: 1.0
+main: fun.iriskas322.IriskAntiLag
+api-version: 1.16
+description: "просто лимит на все сущности в 1 чанке - 8"
+author: Iriskas322
+website: https://iriskas322.fun/
